@@ -1,0 +1,35 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Will You Be My Girlfriend, Aadya?</title>
+       <style>
+           body { font-family: 'Arial', sans-serif; text-align: center; background: linear-gradient(to bottom, #ffe6f2, #ffffff); color: #333; padding: 20px; margin: 0; }
+           h1 { color: #d81b60; font-size: 2.5em; margin-bottom: 10px; }
+           p { font-size: 1.2em; line-height: 1.6; max-width: 600px; margin: 0 auto 20px; }
+           img { max-width: 80%; height: auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 20px 0; }
+           button { background-color: #e91e63; color: white; padding: 15px 30px; border: none; border-radius: 25px; cursor: pointer; font-size: 18px; margin: 10px; transition: background 0.3s; }
+           button:hover { background-color: #c2185b; }
+       </style>
+       <script>
+           function handleYes() {
+               alert('Yes! Let\'s celebrate!');
+           }
+           function handleNo() {
+               alert('Please don\'t say no.');
+               location.reload(); // Reloads the page to loop back
+           }
+       </script>
+   </head>
+   <body>
+       <h1>Hey Aadya,</h1>
+       <p>From the moment we met, you've been the highlight of my days. Your smile lights up everything, and I can't imagine not having you in my life.</p>
+       <img src="https://example.com/your-photo-of-you-two.jpg" alt="Photo"> <!-- Replace with a real photo URL -->
+       <p>So, Aadya... will you be my girlfriend?</p>
+       <button onclick="handleYes()">Yes!</button>
+       <button onclick="handleNo()">No</button>
+       <p style="font-size: 0.8em; margin-top: 40px;">Made with love for Aadya 💖</p>
+   </body>
+   </html>
+   
